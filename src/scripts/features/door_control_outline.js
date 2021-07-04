@@ -1,5 +1,5 @@
 import {settingsKey} from "../settings.js"
-import {OutlineFilter} from "../../lib/outline_filter/outline_filter.js"
+import {OutlineFilter} from "../lib/outline_filter/outline_filter.js"
 
 export function onDoorControlPostDraw() {
 	if (!game.settings.get(settingsKey, "doorControlOutline"))
